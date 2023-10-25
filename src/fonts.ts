@@ -34,7 +34,6 @@ export const anonymous_pro_regular = Anonymous_Pro({
     weight: "400",
     subsets: ['cyrillic', 'latin']
 });
-
 export const capture_it = LocalFont({
     preload: true,
     src: './fonts/CaptureIt.ttf'

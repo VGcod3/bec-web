@@ -4,28 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "Capture it";
-    src: url("/bec-web/src/fonts/CaptureIt.ttf");
-}
-@font-face {
-    font-family: "Technos";
-    src: url("/bec-web/src/fonts/Technos.woff");
-}
-@font-face {
-    font-family: "IBMPlexMono-Bold";
-    src: url("/bec-web/src/fonts/IBMPlexMono-Bold.ttf");
-}
-
-.capture_it {
-    font-family: "Capture it";
-}
-.technos {
-    font-family: "Technos";
-}
-.IBMPlexMono-Bold{
-    font-family: "IBMPlexMono-Bold";
-}
 
 * {
     transition: all 150ms ease-in-out;
@@ -79,3 +57,5 @@ h2,
 h3 {
     font-family: "Capture it", sans-serif;
 }
+
+

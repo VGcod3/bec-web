@@ -12,8 +12,8 @@ const config: Config = {
         becOrange: '#DF9320',
       },
       fontFamily: {
-        captureIt: ["Capture it", 'sans'],
-        monoBold: ["IBMPlexMono-Bold", `IBMPlexMono`]
+        anonymousPro: ["AnonymousPro", `sans`],
+        ibm_plex_mono:["IBM_Plex_Mono", 'mono']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -1,8 +1,9 @@
-
+import Image from 'next/image'
+import Organizers from "@/components/Organizers";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold text-center">тухля пароль!</h1>
+        <Organizers/>
     </main>
   )
 }

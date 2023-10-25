@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        becOrange: '#DF9320',
+      },
+      fontFamily: {
+        captureIt: ["Capture it", 'sans'],
+        monoBold: ["IBMPlexMono-Bold", `IBMPlexMono`]
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

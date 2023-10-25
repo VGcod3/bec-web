@@ -1,0 +1,23 @@
+.section {
+    @apply min-h-screen w-full flex flex-col items-start justify-center px-6 mx-auto;
+}
+
+.heading {
+    @apply tracking-widest self-center uppercase px-1 text-4xl md:text-7xl text-center my-10;
+}
+
+.orgsDataWrapper {
+    @apply lg:grid grid-cols-12 gap-12 my-6 max-w-7xl mx-auto w-full;
+}
+
+.logoWrapper {
+    @apply col-span-12 lg:col-span-5 pb-5 w-full flex justify-center;
+}
+
+.projWrapper {
+    @apply grid grid-cols-6 sm:grid-cols-12 items-center gap-x-14 my-6 max-w-7xl mx-auto w-full;
+}
+
+.projLogo {
+    @apply mx-auto w-full h-auto;
+}

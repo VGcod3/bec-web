@@ -9,17 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        becOrange: '#DF9320',
+        "bec-orange": '#DF9320',
+        "bec-accent": "#d9d9d9",
+        "bec-bg": "#181619"
       },
-      fontFamily: {
-        anonymousPro: ["AnonymousPro", `sans`],
-        ibm_plex_mono:["IBM_Plex_Mono", 'mono']
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+
     },
   },
   plugins: [],

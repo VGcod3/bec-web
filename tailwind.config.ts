@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         "bec-orange": '#DF9320',
         "bec-accent": "#d9d9d9",
-        "bec-bg": "#181619"
+        "bec-bg": "#151515"
       },
 
     },

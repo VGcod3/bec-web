@@ -30,7 +30,7 @@ export default function Organizers() {
             </div>
 
             <div className="max-w-7xl mx-auto w-full">
-                <p className={`${anonymous_pro.className} text-justify text-lg lg:text-2xl`}>Усі проєкти спрямовані на допомогу студентам на початку кар’єрного росту, розвиток їхніх навичок та об’єднанню активної молоді.
+                <p className={`${anonymous_pro.className} text-justify lg:text-center text-lg lg:text-2xl`}>Усі проєкти спрямовані на допомогу студентам на початку кар’єрного росту, розвиток їхніх навичок та об’єднанню активної молоді.
                 </p>
                 <p className={`${anonymous_pro.className} text-center text-lg lg:text-2xl`}>Ось деякі з них:</p>
             </div>

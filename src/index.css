@@ -4,18 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Capture it";
-  src: url("bec-web/src/fonts/CaptureIt.ttf");
-}
+
 @font-face {
   font-family: "Technos";
   src: url("bec-web/src/fonts/Technos.woff");
 }
 
-.capture_it {
-  font-family: "Capture it";
-}
 .technos {
   font-family: "Technos";
 }

@@ -36,7 +36,6 @@ export default function Team() {
                 loop={true}
                 centeredSlides={true}
                 watchSlidesProgress={true}
-                spaceBetween={-10}
                 modules={[EffectCoverflow, Autoplay, Keyboard, Mousewheel]}
                 coverflowEffect={{
                     rotate: 50,
@@ -48,24 +47,32 @@ export default function Team() {
                 breakpoints={{
                     768: {
                         slidesPerView: 5,
-                        spaceBetween: -20
                     }
                 }}
             >
-                <SwiperSlide className="bec5__swiper-slide swiper-slide swiper-slide_vitia bg-none">
-                    <img src="/team/vitia.png" alt="" />
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/vitia.png" alt="vitia" />
                 </SwiperSlide>
-                <SwiperSlide className="bec5__swiper-slide swiper-slide swiper-slide_vlad">
-                    <img src="/team/vlad.png" alt="" />
+                <SwiperSlide className="bec5__swiper-slide swiper-slide">
+                    <img src="/team/vlad.png" alt="vlad" />
                 </SwiperSlide>
-                <SwiperSlide className="bec5__swiper-slide swiper-slide swiper-slide_ruslan">
-                    <img src="/team/ruslan.png" alt="" />
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/ruslan.png" alt="rulan" />
                 </SwiperSlide>
-                <SwiperSlide className="bec5__swiper-slide swiper-slide swiper-slide_anuta">
-                    <img src="/team/anuta.png" alt="" />
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/anuta.png" alt="anuta" />
                 </SwiperSlide>
-                <SwiperSlide className="bec5__swiper-slide swiper-slide swiper-slide_katya">
-                    <img src="/team/katya.png" alt="" />
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/katya.png" alt="katya" />
+                </SwiperSlide>
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/andrii.png" alt="andrii" />
+                </SwiperSlide>
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/bodia.png" alt="bodia" />
+                </SwiperSlide>
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/veronika.png" alt="veronika" />
                 </SwiperSlide>
             </Swiper>
 

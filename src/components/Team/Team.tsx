@@ -1,3 +1,4 @@
+/* @next/next/no-img-element */
 'use client'
 import './Team.scss';
 

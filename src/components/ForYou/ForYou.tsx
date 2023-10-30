@@ -23,7 +23,7 @@ const AccordionTrigger = ({ children, className, ...props }: any) => (
         <img src="/greyUnderline.svg" alt="underline" />
 
         <Accordion.Trigger
-            className={`${ibm_plex_mono_bold.className} text-bec-orange  group flex h-[40px] flex-1 cursor-pointer items-center justify-between px-5 md:text-xl uppercase leading-none outline-none`}
+            className={`${ibm_plex_mono_bold.className} text-bec-orange  group flex h-[40px] flex-1 cursor-pointer items-center justify-between text-left px-5 md:text-xl uppercase leading-none outline-none`}
             {...props}
         >
             {children}

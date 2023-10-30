@@ -1,5 +1,5 @@
-https://tailwindcss.com/docs/typography-plugin@tailwind base;
-  @tailwind components;
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 * {
@@ -10,4 +10,8 @@ https://tailwindcss.com/docs/typography-plugin@tailwind base;
 
 :root {
   color-scheme: dark;
+}
+
+.heading {
+  @apply tracking-widest self-center uppercase px-1 text-4xl md:text-6xl text-center my-10;
 }

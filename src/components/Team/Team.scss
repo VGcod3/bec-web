@@ -1,0 +1,19 @@
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: orange
+}
+
+.swiper-button-prev {
+    position: relative;
+    right: 10vw;
+    z-index: 4;
+}
+
+.team-section {
+    background: url(./team.png) 0 0 no-repeat;
+    @apply bg-cover relative;
+
+    // @media screen and (max-width:768px) {
+    //     background-image: none;
+    // }
+}

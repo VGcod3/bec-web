@@ -1,0 +1,73 @@
+.section {
+    @apply min-h-screen w-full p-6;
+}
+
+.bec {
+    &__container {
+        @apply flex flex-col justify-between max-w-7xl w-full mx-auto my-10 relative;
+        background-color: #212121;
+    }
+
+    &__pseudo {
+        width: 63.043478%;
+        /* 174/276 */
+        height: 7.718121%;
+        /* 23/298 */
+        position: absolute;
+        bottom: -1.006711%;
+        /* -3/298 */
+        right: -1.107011%;
+        /* -3/271 */
+        z-index: 0;
+        background-color: #fff;
+    }
+
+    &__img {
+        @apply absolute box-border hidden md:block;
+        width: 271px;
+        height: 261px;
+
+        background-color: #151515;
+        border: 10px solid #151515;
+        border-top: none;
+
+
+        &::after {
+            content: "";
+            width: 18.115942%;
+            /* 50/276 */
+            height: 16.835017%;
+            /* 50/297 */
+            clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%, 0 30%);
+            left: -1.102941%;
+            /* -3/272 */
+            top: -1.006711%;
+            /* -3/298 */
+            position: absolute;
+            background-color: #fff;
+            z-index: 2;
+        }
+
+
+    }
+
+    &__item {
+        position: relative;
+        max-width: 100%;
+        clip-path: polygon(5% 0, 100% 0, 100% 100%, 5% 100%, 0 95%, 0 5%);
+        z-index: 3;
+    }
+
+    &__box {
+        background-color: #212121;
+        flex: 1 0 200px;
+    }
+
+    &__heading {
+        @apply text-3xl text-center py-6 px-16 uppercase lg:text-left bg-[#2c2c2c];
+    }
+
+    &__description {
+        @apply px-12 pt-6 md:text-lg;
+    }
+}

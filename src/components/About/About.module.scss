@@ -1,0 +1,260 @@
+.bec1 {
+    background: url(./bg1.png) 0 0 no-repeat;
+    @apply bg-cover relative;
+}
+
+.bec1::before {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-full bg-black bg-opacity-20;
+}
+
+@media (max-width: 66.875em) {
+    .bec1::before {
+        background-color: rgba(0, 0, 0, 0.6352941176);
+    }
+}
+
+.bec1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 21, 21, 0.9176470588);
+    clip-path: polygon(58% 10%,
+            78% 10%,
+            83% 0,
+            100% 0,
+            100% 81%,
+            58% 81%,
+            52% 94%,
+            0 94%,
+            0 22%,
+            52% 22%);
+}
+
+@media (max-width: 66.875em) {
+    .bec1::after {
+        display: none;
+    }
+}
+
+.bec1__container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+    z-index: 1;
+}
+
+@media (max-width: 66.875em) {
+    .bec1__container {
+        display: block;
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 15px 10px;
+    }
+}
+
+.bec1__pseudo {
+    width: 25.307798%;
+    /* 185/731 */
+    height: 0.784314%;
+    /* 4/510 */
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    transform: translate(-50%, 0);
+    z-index: 4;
+    background-color: #fff;
+}
+
+.bec1__left {
+    position: relative;
+    flex: 0 1 730px;
+    padding-right: 50px;
+    padding-left: 10px;
+    z-index: inherit;
+}
+
+@media (max-width: 34.6875em) {
+    .bec1__left {
+        padding: 0;
+    }
+}
+
+@media (max-width: 66.875em) {
+    .bec1__left {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.bec1__left_title {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 71.734px;
+    padding-bottom: 40px;
+    margin-left: 114px;
+}
+
+@media (max-width: 66.875em) {
+    .bec1__left_title {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    .bec1__left_title {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 26.5625em) {
+    .bec1__left_title {
+        font-size: 35px;
+    }
+}
+
+.bec1__img {
+    position: relative;
+}
+
+@media (max-width: 66.875em) {
+    .bec1__img {
+        max-width: 700px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 47.9988em) {
+    .bec1__img {
+        display: none;
+    }
+}
+
+.bec1__img::after {
+    content: "";
+    width: 16.552668%;
+    /* 121/731 */
+    height: 23.72549%;
+    /* 121/510 */
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
+    top: -0.784314%;
+    /* 4/510 */
+    left: -0.547196%;
+    /* 4/731 */
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.bec1__item {
+    position: relative;
+    max-width: 100%;
+    clip-path: polygon(37% 0,
+            37% 2%,
+            66% 2%,
+            66% 0,
+            100% 0,
+            100% 100%,
+            0 100%,
+            0 11.764706%,
+            8.207934% 0);
+    z-index: 3;
+}
+
+.bec1__right {
+    position: relative;
+    z-index: inherit;
+    flex: 0 1 540px;
+    padding: 0 50px;
+    padding-top: 40px;
+    align-self: top;
+}
+
+@media (max-width: 66.875em) {
+    .bec1__right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 47.9988em) {
+    .bec1__right {
+        padding-top: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 26.5625em) {
+    .bec1__right {
+        padding: 0 15px;
+    }
+}
+
+.bec1__right_title {
+    @apply text-bec-orange;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+
+@media (max-width: 1250px) {
+    .bec1__right_title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 26.5625em) {
+    .bec1__right_title {
+        font-size: 20px;
+    }
+}
+
+.bec1__right_text {
+    color: #fff;
+    font-size: 18px;
+    line-height: 110%;
+    /* 28.6px */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1250px) {
+    .bec1__right_text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 26.5625em) {
+    .bec1__right_text {
+        font-size: 14px;
+    }
+}
+
+.bec1__right_text p:first-child {
+    margin-bottom: 10px;
+}
+
+.bec1__right_reg {
+    @apply text-bec-orange;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+@media (max-width: 78.125em) {
+    .bec1__right_reg {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 26.5625em) {
+    .bec1__right_reg {
+        font-size: 16px;
+    }
+}

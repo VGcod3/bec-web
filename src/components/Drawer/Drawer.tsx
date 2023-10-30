@@ -58,7 +58,7 @@ export default function Drawer({
                             animate={{ x: '0%' }}
                             exit={{ x: '100%' }}
                             transition={{ duration: 0.2 }}
-                            className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-bec-svg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-200/10"
+                            className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-bec-bg px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-200/10"
                         >
                             <div>
                                 <div className="flex items-center justify-between">
@@ -89,11 +89,6 @@ export default function Drawer({
                                                     {item.name}
                                                 </span>
                                             ))}
-
-                                            <button onClick={() => {
-                                                setMobileMenuOpen(false);
-                                                handleScrollClick('#offers')
-                                            }} className={`${anonymous_pro_bold.className} rounded-md w-full bg-bec-orange text-black p-2 xl:p-3`}>Стати партнером</button>
 
                                         </div>
 

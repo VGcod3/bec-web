@@ -1,4 +1,4 @@
-import { Roboto_Mono, Anonymous_Pro, Open_Sans, Play } from "next/font/google";
+import { Roboto_Mono, Anonymous_Pro, Open_Sans, Play, IBM_Plex_Mono } from "next/font/google";
 import LocalFont from 'next/font/local'
 
 export const play = Play(
@@ -9,6 +9,12 @@ export const play = Play(
     }
 )
 
+export const ibm_plex_mono_bold = IBM_Plex_Mono(
+    { weight: ["700"], subsets: ['cyrillic-ext'] }
+);
+export const ibm_plex_mono = IBM_Plex_Mono(
+    { weight: ["300"], subsets: ['cyrillic-ext'] }
+);
 export const open_sans = Open_Sans({
     preload: true,
     weight: "600",

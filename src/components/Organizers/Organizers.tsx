@@ -1,14 +1,13 @@
 import styles from './Organizers.module.scss';
 import Image from 'next/image';
-import { anonymous_pro } from "@/app/fonts";
 
-import { ibm_plex_mono, ibm_plex_mono_bold, capture_it } from "@/app/fonts";
+import { ibm_plex_mono, ibm_plex_mono_bold, capture_it, anonymous_pro_regular } from "@/fonts";
 
 export default function Organizers() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id='orgs'>
 
-            <h2 className={`${capture_it.className} ${styles.heading}`}>
+            <h2 className={`${capture_it.className} heading`}>
                 Організатори
             </h2>
 
@@ -19,7 +18,7 @@ export default function Organizers() {
                 </div>
 
                 <div className="col-span-12 lg:col-span-7 lg:p-8">
-                    <h4 className={`${ibm_plex_mono_bold.className} text-left font-bold text-bec-orange text-md md:text-2xl mb-4`}>МІСІЯ BEST — РОЗВИТОК СТУДЕНТІВ.</h4>
+                    <h4 className={`${ibm_plex_mono_bold.className} text-center lg:text-left font-bold text-bec-orange text-md md:text-2xl mb-4`}>МІСІЯ BEST — РОЗВИТОК СТУДЕНТІВ.</h4>
                     <p className={`${ibm_plex_mono.className} text-md mb-5 text-justify`}>
                         Проєкт реалізує волонтерська організація BEST Lviv, що є частиною Ради студентів технічних університетів Європи (Board of European Students of Technology).
                     </p>
@@ -30,9 +29,9 @@ export default function Organizers() {
             </div>
 
             <div className="max-w-7xl mx-auto w-full">
-                <p className={`${anonymous_pro.className} text-justify lg:text-center text-lg lg:text-2xl`}>Усі проєкти спрямовані на допомогу студентам на початку кар’єрного росту, розвиток їхніх навичок та об’єднанню активної молоді.
+                <p className={`${anonymous_pro_regular.className} text-justify lg:text-center text-lg lg:text-2xl`}>Усі проєкти спрямовані на допомогу студентам на початку кар’єрного росту, розвиток їхніх навичок та об’єднанню активної молоді.
                 </p>
-                <p className={`${anonymous_pro.className} text-center text-lg lg:text-2xl`}>Ось деякі з них:</p>
+                <p className={`${anonymous_pro_regular.className} text-center text-lg lg:text-2xl`}>Ось деякі з них:</p>
             </div>
 
             <div className={styles.projWrapper}>

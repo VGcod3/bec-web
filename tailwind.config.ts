@@ -9,11 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "bec-orange": '#DF9320',
+        "bec-orange": '#F5A020',
         "bec-accent": "#d9d9d9",
-        "bec-bg": "#151515"
+        "bec-bg": "#151515",
       },
-
+      keyframes: {
+        slideDown: {
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        slideUp: {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' },
+        },
+      },
+      animation: {
+        slideDown: 'slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideUp: 'slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+      },
     },
   },
   plugins: [],

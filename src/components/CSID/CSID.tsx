@@ -1,7 +1,7 @@
 'use client'
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { capture_it, ibm_plex_mono, ibm_plex_mono_bold } from "@/fonts";
+import { ibm_plex_mono, ibm_plex_mono_bold } from "@/fonts";
 import styles from './CSID.module.scss';
 
 import * as Dialog from "@radix-ui/react-dialog";

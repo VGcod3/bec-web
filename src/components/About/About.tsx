@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import React from "react";
 import { capture_it, ibm_plex_mono, ibm_plex_mono_bold } from "@/fonts";
 import RButton from "@/components/RButton";

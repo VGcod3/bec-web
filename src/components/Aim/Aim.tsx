@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { capture_it, ibm_plex_mono, ibm_plex_mono_bold } from "@/fonts";
+import { capture_it, ibm_plex_mono } from "@/fonts";
 import styles from './Aim.module.scss';
 
 export default function Aim() {

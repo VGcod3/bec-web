@@ -118,19 +118,19 @@ export default function CSID() {
                                     <span className="font-bold">
                                         Перший етап
                                     </span>
-                                    – {data[category].stages["Перший Етап"]}
+                                    {` – ${data[category].stages["Перший Етап"]}`}
                                 </li>
                                 <li>
                                     <span className="font-bold">
                                         Другий етап
                                     </span>
-                                    – {data[category].stages["Другий етап"]}
+                                    {` – ${data[category].stages["Другий етап"]}`}
                                 </li>
                                 <li>
                                     <span className="font-bold">
                                         Третій етап
                                     </span>
-                                    – {data[category].stages["Третій Етап"]}
+                                    {` – ${data[category].stages["Третій Етап"]}`}
                                 </li>
                             </ul>
                         </Dialog.Description>

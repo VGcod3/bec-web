@@ -20,13 +20,13 @@ export default function Team() {
         <div className="team-section w-full py-10">
             <h2 className={`${capture_it.className} relative z-10 heading`}>команда організаторів</h2>
             <Swiper
-                className=' mx-auto max-w-5xl w-full relative z-10'
+                className=' mx-auto max-w-5xl w-full relative z-10 h-[480px]'
                 autoHeight={true}
                 slidesPerView={3}
                 resizeObserver={true}
                 centerInsufficientSlides={true}
-                initialSlide={1}
-                autoplay={false}
+                initialSlide={5}
+                autoplay={true}
                 mousewheel={false}
                 keyboard={{
                     enabled: true,
@@ -47,17 +47,28 @@ export default function Team() {
                 breakpoints={{
                     768: {
                         slidesPerView: 5,
+                        spaceBetween: -10
                     }
                 }}
             >
+
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/pryima.png" alt="pryima" />
+                </SwiperSlide>
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/veronika.png" alt="veronika" />
+                </SwiperSlide>
                 <SwiperSlide className="bec5__swiper-slide swiper-slide ">
                     <img src="/team/vitia.png" alt="vitia" />
+                </SwiperSlide>
+                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
+                    <img src="/team/ruslan.png" alt="rulan" />
                 </SwiperSlide>
                 <SwiperSlide className="bec5__swiper-slide swiper-slide">
                     <img src="/team/vlad.png" alt="vlad" />
                 </SwiperSlide>
                 <SwiperSlide className="bec5__swiper-slide swiper-slide ">
-                    <img src="/team/ruslan.png" alt="rulan" />
+                    <img src="/team/bodia.png" alt="bodia" />
                 </SwiperSlide>
                 <SwiperSlide className="bec5__swiper-slide swiper-slide ">
                     <img src="/team/anuta.png" alt="anuta" />
@@ -69,11 +80,9 @@ export default function Team() {
                     <img src="/team/andrii.png" alt="andrii" />
                 </SwiperSlide>
                 <SwiperSlide className="bec5__swiper-slide swiper-slide ">
-                    <img src="/team/bodia.png" alt="bodia" />
+                    <img src="/team/bogdan.png" alt="bogdan" />
                 </SwiperSlide>
-                <SwiperSlide className="bec5__swiper-slide swiper-slide ">
-                    <img src="/team/veronika.png" alt="veronika" />
-                </SwiperSlide>
+
             </Swiper>
 
 

@@ -17,3 +17,9 @@
     //     background-image: none;
     // }
 }
+
+.swiper-slide>img {
+    height: 100% !important;
+    // width: auto;
+    object-fit: contain;
+}

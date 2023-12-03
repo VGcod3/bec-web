@@ -23,28 +23,7 @@ export default function Partners() {
             <h2 className={`${capture_it.className} heading relative z-10`}>Партнери</h2>
             <img src="/partners.png" alt="partners" className="absolute left-0 w-screen object-cover h-full" />
 
-            <div className="grid gap-6 w-full border-2 relative z-10 border-bec-orange p-10 bg-bec-bg max-w-7xl px-6 mx-auto ">
-                <div className="grid-cols-4 gap-4 flex justify-evenly">
-                    {partners_row_1.map(logo => <PartnersLogo>
-                        <img src={`/partners/${logo}.svg`} alt={logo} />
-                    </PartnersLogo>)}
-                </div>
-                <div className="grid-cols-4 gap-4 w-11/12 mx-auto flex justify-evenly">
-                    {partners_row_2.map(logo => <PartnersLogo>
-                        <img src={`/partners/${logo}.svg`} alt={logo} />
-                    </PartnersLogo>)}
-                </div>
-                <div className="grid-cols-5 gap-4 w-11/12 mx-auto flex justify-evenly">
-                    {partners_row_3.map(logo => <PartnersLogo>
-                        <img src={`/partners/${logo}.svg`} alt={logo} />
-                    </PartnersLogo>)}
-                </div>
-                <div className="grid-cols-2 flex justify-evenly w-8/12 mx-auto">
-                    {partners_row_4.map(logo => <PartnersLogo>
-                        <img src={`/partners/${logo}.svg`} alt={logo} />
-                    </PartnersLogo>)}
-                </div>
-            </div>
+            <img src="/new-sponsors.jpg" alt="partners" className="w-full max-w-7xl mx-auto relative z-10" />
         </section>
     )
 }
